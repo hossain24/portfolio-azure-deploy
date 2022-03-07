@@ -1,8 +1,10 @@
 import React from 'react';
+import LandingPage from './components/Landing/LandingPage';
 
 function App() {
-  const value = 'World';
-  return <div>Hello {value}</div>;
+  <>
+    <LandingPage />
+  </>
 }
 
 export default App;
